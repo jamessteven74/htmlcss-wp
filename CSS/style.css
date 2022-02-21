@@ -59,6 +59,7 @@ main{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    filter: brightness(0.5);
 }
     
 
@@ -132,10 +133,22 @@ aside{
     clear: both;
 }
 
+
+.image_left{
+    filter: brightness(0.5);
+    border-radius: 20px;
+}
+
+.central_banner{
+    filter: brightness(0.5);
+    border-radius: 20px;
+}
 .image_right{
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    filter: brightness(0.5);
+    border-radius: 20px;
 
 }
 
