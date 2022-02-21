@@ -16,22 +16,27 @@
 header{
     width: 100%;
     height: 100px;
-    background-color: coral;
+    /* background-color: coral; */
 }
  
 .logo{
     width: 150px;
 }
 
+/* nav */
 
-
+a[href^="https"]{
+    padding-right: 10px;
+    color: #C6C6C6;
+    text-decoration: none;
+}
 
 /* main */
 
 main{
     width: 100%;
     height: 300px;
-    background-color: #4E1BDC;
+    /* background-color: #4E1BDC; */
     margin-top: 10px;
 }
 
@@ -52,7 +57,9 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
 }
+    
 
 .pretium{
     position: absolute;
@@ -60,8 +67,15 @@ main{
     left: 20px;
     font-size: 20px;
     color: white;
+    margin-bottom: 34px;
+
 }
-    
+
+.description{
+    margin-top: 0px;
+    font-size: 15px;
+}
+
 
 /* aside */
 
@@ -71,6 +85,7 @@ main{
     background-color: red;
     float: left;
     margin-right: 50px;
+    border-radius: 20px;
     
 }
 
@@ -78,6 +93,7 @@ main{
     width: 500px;
     height: 300px;
     background-color: red;
+    border-radius: 20px;
     float: left;
 }
 
@@ -87,8 +103,13 @@ main{
     background-color: red;
     float: left;
     margin-left: 50px;
+    border-radius: 20px;
 }
     
+.central_banner{
+    width: 100%;
+    height: 100%;
+}
     
    
 
@@ -113,3 +134,9 @@ footer{
     margin-top: 10px;
 }
 
+.image_right{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
