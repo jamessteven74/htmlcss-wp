@@ -24,7 +24,11 @@ header{
     width: 150px;
 }
 
+
 /* nav */
+nav{
+    padding-top: 21px;
+}
 
 a[href^="https"]{
     padding-right: 10px;
@@ -78,6 +82,11 @@ main{
     font-size: 15px;
 }
 
+.leadership{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
 span{
     color:#C6C6C6;
 }
@@ -180,3 +189,9 @@ h3{
     color: red;
     
 }
+p{
+    color: #C6C6C6;
+}
+
+
+
