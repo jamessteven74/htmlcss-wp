@@ -25,6 +25,7 @@ header{
 }
 
 
+
 /* nav */
 nav{
     padding-top: 21px;
@@ -63,7 +64,7 @@ main{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    filter: brightness(0.5);
+    filter: brightness(0.9);
 }
     
 
@@ -80,6 +81,7 @@ main{
 .description{
     margin-top: 0px;
     font-size: 15px;
+    color: white;
 }
 
 .leadership{
@@ -144,19 +146,19 @@ aside{
 
 
 .image_left{
-    filter: brightness(0.5);
+    filter: brightness(0.9);
     border-radius: 20px;
 }
 
 .central_banner{
-    filter: brightness(0.5);
+    filter: brightness(0.9);
     border-radius: 20px;
 }
 .image_right{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    filter: brightness(0.5);
+    filter: brightness(0.9);
     border-radius: 20px;
 
 }
