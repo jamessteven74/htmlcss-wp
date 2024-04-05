@@ -31,10 +31,12 @@ nav{
     padding-top: 21px;
 }
 
-a[href^="https"]{
+nav a{
     padding-right: 10px;
     color: #C6C6C6;
     text-decoration: none;
+    display: inline-block;
+    padding-right: 1rem;
 }
 
 /* main */
