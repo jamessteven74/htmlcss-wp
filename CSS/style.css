@@ -6,12 +6,18 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 1440px;
+    margin: auto;
+}
+
 .container{
     width: 1200px;
     height: 1200px;
     margin: auto;
     /* background-color: aqua; */
 }
+
 
 /* 
 // <uniquifier>: Use a unique and descriptive class name
@@ -103,14 +109,7 @@ main .hero_image{
 }
 
 
-.leadership{
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
-span{
-    color:#C6C6C6;
-}
+
 
 /* aside */
 
