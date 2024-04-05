@@ -36,8 +36,14 @@ header{
     /* background-color: coral; */
 }
  
-.logo{
+div.logo{
     width: 150px;
+    border-right: 1px solid lightgrey;
+    padding: 0 10px 0 0;
+}
+
+div.logo>img{
+    max-width: 100%;
 }
 
 
