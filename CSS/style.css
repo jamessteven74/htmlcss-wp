@@ -1,9 +1,10 @@
-.*{
+/*#region common*/
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 .container{
     width: 1200px;
@@ -11,6 +12,21 @@
     margin: auto;
     /* background-color: aqua; */
 }
+
+/* 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.montserrat-300 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*#endregion common*/
+
+
 
 /* header */
 
