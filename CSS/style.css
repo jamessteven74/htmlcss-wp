@@ -184,8 +184,15 @@ aside.right>img{
     object-fit: cover;
 }
 
-aside.left .aside_text>p{
+aside.left .aside_text>p, aside.midle .aside_text>p, aside.right .aside_text>p{
     color: var(--color-text);
+      padding: 0.5rem 0;
+}
+
+aside.left .aside_text>strong, aside.midle .aside_text>strong, aside.right .aside_text>strong{
+     padding: 0.5rem 0;
+     display: inline-block;
+  
 }
 
 /*#endregion main*/
