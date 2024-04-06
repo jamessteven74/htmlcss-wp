@@ -184,6 +184,16 @@ aside.right>img{
     object-fit: cover;
 }
 
+
+aside.left img:last-of-type, 
+aside.midle img:last-of-type, 
+aside.right img:last-of-type {
+    filter: brightness(0.9);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
 aside.left .aside_text>p, aside.midle .aside_text>p, aside.right .aside_text>p{
     color: var(--color-text);
       padding: 0.5rem 0;
