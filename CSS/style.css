@@ -29,6 +29,8 @@ body{
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
 
+/** font "MONTSERRAT" taken from google **/
+
 .montserrat-300 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -162,6 +164,9 @@ main .hero_image{
     font-size: 15px;
 }
 
+/***** values about images in the colums *****/ 
+
+
 aside.left>img {
     filter: brightness(0.9);
     border-radius: 10px;
@@ -193,6 +198,13 @@ aside.right img:last-of-type {
     margin-top: 10px;
 }
 
+ /***** End values about images in the colums *****/
+
+
+/*  //////////////////////////////////////////////////////////////////// */
+
+ /***** rules about text in the colums with images *****/  
+ 
 
 aside.left .aside_text>p, aside.midle .aside_text>p, aside.right .aside_text>p{
     color: var(--color-text);
@@ -203,7 +215,7 @@ aside.left .aside_text>strong, aside.midle .aside_text>strong, aside.right .asid
      padding: 0.5rem 0;
      display: inline-block;
   
-}
+}/***** End rules about text in the colums with images *****/
 
 /*#endregion main*/
 
