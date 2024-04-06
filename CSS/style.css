@@ -18,6 +18,12 @@ body{
     /* background-color: aqua; */
 }
 
+:root{
+    --color-text: #8c8787;
+    --main-color: #ffffff;
+
+}
+
 
 /* 
 // <uniquifier>: Use a unique and descriptive class name
@@ -68,6 +74,16 @@ body{
     float: left;
 }
 
+.col-sm{
+width: 25%;
+float: left;
+}
+
+.col-md{
+    width: 46%;
+    float: left;
+    margin: 0 2%;
+}
 /*#endregion utilities*/
 
 
@@ -146,7 +162,31 @@ main .hero_image{
     font-size: 15px;
 }
 
+aside.left>img {
+    filter: brightness(0.9);
+    border-radius: 10px;
+}
 
+aside.midle>img {
+    width: 100%;
+     filter: brightness(0.9);
+    border-radius: 10px;
+    height: 300px;
+    
+}
+
+
+aside.right>img{
+    max-width: 100%;
+    filter: brightness(0.9);
+    border-radius: 10px;
+    height: 300px;
+    object-fit: cover;
+}
+
+aside.left .aside_text>p{
+    color: var(--color-text);
+}
 
 /*#endregion main*/
 
